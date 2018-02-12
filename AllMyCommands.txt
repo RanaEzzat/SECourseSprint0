@@ -1,0 +1,19 @@
+C:\Users\hp>CD SECourseSprint0
+C:\Users\hp\SECourseSprint0>git init
+C:\Users\hp\SECourseSprint0>git add 1.1GettingStartedAboutVersionControl.txt
+C:\Users\hp\SECourseSprint0>git add 3.1GitBranchngBranchesinaNutshell.txt
+C:\Users\hp\SECourseSprint0>git add 5.1DistributedGit-DistributedWorkflows.txt
+C:\Users\hp\SECourseSprint0>git rm --cached 3.1GitBranchngBranchesinaNutshell.txt
+C:\Users\hp\SECourseSprint0>git add 3.1GitBranchngBranchesinaNutshell.txt
+C:\Users\hp\SECourseSprint0>git commit -m "First commit: I added three text files from the book , then deleted file 3.1 and rolled back by readding it"
+C:\Users\hp\SECourseSprint0>git remote add origin https://github.com/RanaEzzat/SECourseSprint0.git
+C:\Users\hp\SECourseSprint0>git remote -v
+C:\Users\hp\SECourseSprint0>git push origin master
+C:\Users\hp\SECourseSprint0>git checkout -b ReadMe
+C:\Users\hp\SECourseSprint0>git push origin ReadMe
+C:\Users\hp\SECourseSprint0>git add README.mdown
+C:\Users\hp\SECourseSprint0>git commit -m "Created a README branch and added a README.md that has the description of the author name , id & books."
+C:\Users\hp\SECourseSprint0> git push origin master
+C:\Users\hp\SECourseSprint0>git push origin ReadMe:master
+C:\Users\hp\SECourseSprint0>git add AllMyCommands.txt
+C:\Users\hp\SECourseSprint0>git commit -m "Added all the commands that I used in a text file named AllMyCommands"
